@@ -1,0 +1,81 @@
+/* custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    color:#000 ;
+    text-decoration: none;
+}
+html{
+    color-scheme: light;
+}
+body{
+    background-image: url(../images/pattern.png);
+}
+nav, .navlink{
+    display:flex;
+}
+nav{
+    height: 60px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+header{
+    background-color:#a593c2;
+    width:100%;
+}
+.navlink{
+    place-items: center;
+    list-style:none;
+}
+.navlink a{
+    margin: 15px;
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 400;
+}
+.container{
+    width: 1000px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+aside{
+    float: left;
+    width: 30%;
+}
+main{
+    float: right;
+    width: 70%;
+}
+h4{
+    text-align: center;
+}
+input{
+    padding: 10px;
+    width:200px;
+}
+aside .sidelinks{
+    margin: 20px 12px;
+}
+.sidelinks a{
+    color: #551a8b;;
+}
+h1{
+    color:#a593c2;
+    text-align: left;
+    margin-block: 30px;
+    font-weight: 700;
+}
+p{
+    margin-block-end: 20px;
+}
+.map iframe{
+    border-radius: 5px;
+}
